@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Work+Sans:wght@600&display=swap');
+#banner{
+	display: none;
+}
+
+/* quote */
+
+#quote{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 7%;
+}
+
+h1, h2{
+	font-family: 'Work Sans', sans-serif;
+}
+
+#quote-q{
+	padding-top: 30px;
+}
+
+#quote-q q, cite{
+	display: block;
+	font-size: 120%;
+}
+
+cite{
+	margin-top: 20px;
+}
+
+/* section 1 */
+h2{
+	padding-top: 30px;
+	font-size: 150%;
+}
+
+#section1-div{
+	background-color: #636363;
+	color: #ffffff;
+}
+
+
+/* section 2 */
+#section2 figure{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5%;
+}
+
+#section2 figure img{
+	padding: 4px;
+	border: 1px solid #bababa;
+	border-radius: 3%;
+	width: 80%;
+}
+
+#section2 figure figcaption{
+	font-size: 120%;
+}
+
+#section2 h1{
+	margin-top: 40px;
+	font-size: 200%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#section2{
+	margin-bottom: 15%;
+}
+
+/* footer */
+.footer-a{
+	padding-left: 20px;
+}
+.footer-a:hover{
+	color: #000000;
+}
+
+#footer-a-group{
+	padding-bottom: 10px;
+}
+
+#contact-a{
+	padding-left: 7%; 
+	font-size: 120%;
+}
+
+@media only screen and (min-width: 992px) {
+	/* banner */
+	#banner{
+		display: block;
+		background-image: url("../img/Hohoankiem/banner.jpg");
+		height: 660px;
+	}
+
+	#banner-p{
+		width: 70%;
+		position: absolute;
+		top: 40%;
+		left: 5%;
+		font-size: 130%;
+		font-weight: bold;
+	}
+
+	/* section 1 */
+	#section1-div{
+		background-image: url("../img/hohoankiem/img.jpg");
+		color: #ffffff;
+		text-shadow: 2px 2px 4px #000000;
+	}
+
+	/* section 2 */
+	#section2 figure img{
+		width: 50%;
+	}
+
+	#section2{
+		margin-bottom: 10px;
+	}
+
+	/* footer */
+	#contact-a{
+		padding-left: 10%; 
+		font-size: 120%;
+	}
+}
